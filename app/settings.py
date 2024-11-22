@@ -18,22 +18,21 @@ from pathlib import Path
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-9xtqs4w&-#n=#5zj0=!6@58^7$_5=75v891nd@s+-edctkfyu#'
+SECRET_KEY = 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-CSRF_FAILURE_VIEW = 'django.views.csrf.csrf_failure'
+CSRF_FAILURE_VIEW = 
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-  '.railway.app',
+  
 
 ]
 
@@ -91,9 +90,7 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+  
     }
 }
 
@@ -135,7 +132,7 @@ USE_TZ = True
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = 
 
 # Directories to look for static files
 # Define your static files base directory explicitly.
