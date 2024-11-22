@@ -38,9 +38,9 @@ class newProductModels(models.Model):
     description = models.TextField()
     category = models.CharField(max_length=20)
     city = models.CharField(max_length=100, default="New york") 
-    price = models.DecimalField(max_digits=10, decimal_places=2)  # Base price per unit in dollars
-    currency = models.CharField(max_length=3, default="USD")  # e.g., 'USD'
-    image_url = models.URLField(blank=True, null=True)  # Optional: for displaying images in Stripe checkout
+    price = models.DecimalField(max_digits=10, decimal_places=2)  
+    currency = models.CharField(max_length=3, default="USD")  
+    image_url = models.URLField(blank=True, null=True)  t
     video_link = models.URLField(blank=True, null=True)
     
     
