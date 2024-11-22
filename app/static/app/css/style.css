@@ -1,0 +1,21 @@
+/* static/css/styles.css */
+
+:root {
+    --primary-color: #333;
+    --secondary-color: #f0f0f0;
+    --background-color: #b12727;
+    --text-color: #333;
+}
+
+.dark-mode {
+    --primary-color: #f0f0f0;
+    --secondary-color: #333;
+    --background-color: black;
+    --text-color: #f0f0f0;
+}
+
+body {
+    background: linear-gradient(to right,  rgb(75, 0, 75), rgb(149, 16, 149), rgb(75, 0, 75));
+    color: rgb(160, 160, 160);
+
+}
