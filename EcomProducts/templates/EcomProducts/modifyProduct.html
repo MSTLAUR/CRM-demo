@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled List with Tailwind and Django</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <div> SEE ALL PRODUCTS</div>
+    <h2>Update Item</h2>
+    <!-- Display the form with the current item's data -->
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Update</button>
+    </form>
+    <br>
+    <!-- Link back to the item list page -->
+    <a href="">Back to Item List</a>
+</body>
+</html>
